@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;}
+#nav{
+    display: flex;
+    height: 100px;
+    background-color: grey;
+}
+.left-nav{
+    flex: 10%;
+}
+.left-nav img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.mid-nav{
+    flex:70%;
+    /* background-color: aliceblue; */
+}
+
+.mid-nav ul li {
+        display: inline-block;
+        padding-top: 5px;
+        margin: 15px;
+}
+.mid-nav ul{
+    margin: 20px;
+    text-align: center; 
+    font-size: 25px; 
+}
+.mid-nav ul li a{
+    list-style-type: none;
+    text-decoration: none; 
+    color: black; 
+}
+.mid-nav ul li a:hover{
+    color: white;
+    background-color: black;
+    transition: 1s all;
+ 
+   
+}
+.right-nav{
+    flex: 20%;
+}
+.right-nav ul li {
+    display: inline;
+    margin: 20px;
+    
+}
+.right-nav ul li i{
+    font-size: 25px;
+    padding-top: 30px;
+}
+.right-nav ul li i:hover{
+    transform: scale(1.1);
+}
+.fa-facebook:hover{
+    color: blue;
+}
+.fa-instagram:hover{
+    color: magenta;
+}
+.fa-youtube:hover{
+    color: red;}
+    .fa-twitter:hover{
+        color: skyblue;}
+/* flexbox */
+.flex-box{
+    border: 2px solid black;
+    height: 400px;
+    flex-wrap: wrap;
+  
+}
+.box{
+    border: 2px solid goldenrod;
+    height: 200px;
+    width: 200px;
+  display: inline-block;
+}
+.box:hover{
+    transform: rotate(45deg);
+    transition: 2s all;
+}
+
+
+
+
+
+
+
+
+/* 
+#logo img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+/* navbar */
+/* #nav{
+    background-color: black;
+   display: flex;
+   align-items: center; */
+   /* text-decoration: none; */
+/* }
+#nav ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    
+}
+ul li{
+    padding: 20px 20px;
+  
+}
+nav ul li a{
+    color: white;
+} */
+/* home */
+/* #home img{
+    width: 100%; */
+    /* background-image: url("assests/images/banner.jpg"); */
+    /* position: absolute; 
+}*/
+/* #home h1{
+    background-image: url("repo1\assests\images\banner.jpg");
+    background-clip: text;
+    color: transparent;
+} */
+ /* #home ::before{
+    content: "";
+    position: absolute;
+    background-image: url("banner.jpg");
+    height:100% ;
+    width:100% ;
+    z-index: -1;
+    opacity: 0.4;
+ }  */
+   /* for all headings */
+/* .heading{
+    background-color: grey;
+    text-align: center;
+    margin-top: 0;
+}
+  #about{
+    display: flex;
+    background-color: cadetblue;
+  }
+    #about div{
+        border: 2px solid black; 
+        margin: 30px;
+        text-align: center;
+        background-color: white;
+    }
+    
+    #contact{
+        display: flex;
+    }
+    #contact img{
+        width: 300px;
+    }
+    .form{
+        background: yellow;
+        border: 2px solid black;
+        width: 400px;
+        
+      
+    } */ 
+    
